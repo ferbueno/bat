@@ -4,13 +4,7 @@
 
 ### React JS
 
-React JS is a web component library, designed and developed by Facebook. It follows the latest trends and styles of web programming.
-
-Advantages:
-1. Stability
-2. Support
-3. Community
-4. Ease of use
+React JS is a web component library, designed and developed by Facebook, it follows the latest trends in both design and programming. It's the right now and future of web development.
 
 For more information about React JS, please, visit their [website](https://reactjs.org/)
 
@@ -66,14 +60,47 @@ The most modern tool to make queries. We like to keep trending with tech, and *G
 
 ### MongoDB
 
+*MongoDB* is a largely, easily scalable, No-SQL database. Designed to safekeep objects as documents, it gives the flexibility necessary to scale and for a constantly changing system.
+
+For more information about MongoDB, please, visit their [website](https://www.mongodb.com/)
+
 #### Why MongoDB?
 
-### ElasticSearch *
+High scalability. As a flexible database, it's easier to scale.
+
+Ease of queries. When creating a complex system, SQL queries tend to only grow. Queries to MongoDB keep it simple, and it doesn't matter if the scheme changes, the query is sure to work. (Unless the scheme affects the query, of course).
+
+Compatibility with *JavaScript*.
+
+Open Source. Maintained by an enormous community and still growing.
+
+### Elastic Search *
+
+*Elastic Search* is a highly scalable, full text search & analytics engine, designed to build and answer queries in near real time.
+
+*ElasticSearch* is not yet confirmed to be a part of the stack.
 
 #### Why ElasticSearch?
 
-## Deployment
+Unmatched speed. *ElasticSearch* offers unmatched speed when making queries, even with a large amount of documents stored.
+
+REST oriented. The way you build queries to *ElasticSearch*, is through `JSON` and REST calls, such as `GET` and `POST`.
+
+Full text search. Whether you're searching for a part of a word inside a phrase, or a complete sentence, *ElasticSearch* is prepared for both.
+
+## Deployment
 
 ### Docker
 
-#### Why Docker?
+Docker is an open source, containerization and deployment tool, built to deploy software across multiple environments without breaking a sweat, and with the promise that the execution won't change, regardless of the environment in which it will be deployed.
+
+#### Why Docker?
+
+Most popular deployment tool right now. With container strategy becoming more and more popular, Docker has grown to be the most used deployment tool.
+
+Scalability. Docker offers its users to be able to scale software depending by demand by only executing one command.
+
+Persistence. Docker automatically re-launches a container after it has been shutdown for any reason. That way, we can asure that the service will always be up and running.
+
+Compatibility. Docker is compatible with all the stack mentioned in this document.
+
